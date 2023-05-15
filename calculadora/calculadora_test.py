@@ -14,3 +14,9 @@ class TestCalculadora(unittest.TestCase):
         esperado = 1
 
         self.assertEqual(saida,esperado)
+
+    def test_somar_1_1(self):
+        saida = Calculadora.somar(x=1,y=1)
+        esperado = 2
+
+        self.assertEqual(saida,esperado)
