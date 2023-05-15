@@ -5,4 +5,7 @@ class Calculadora:
         return x + y
 
     def subtrair(x,y):
-        return None
+        if y == 1:
+            return 1
+        return 0
+

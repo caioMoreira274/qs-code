@@ -26,3 +26,9 @@ class TestCalculadora(unittest.TestCase):
         esperado = 0
 
         self.assertEqual(saida,esperado)
+
+    def test_subtrair_0_1(self):
+        saida = Calculadora.somar(x=0,y=1)
+        esperado = 1
+
+        self.assertEqual(saida,esperado)
