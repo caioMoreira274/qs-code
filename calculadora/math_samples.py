@@ -11,5 +11,7 @@ class Calculadora:
         return x * y
 
     def dividir(x,y):
-        return 'undefined'
+        if y==0:
+            return 'undefined'
+        return x / y
 

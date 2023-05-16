@@ -61,7 +61,19 @@ class TestCalculadora(unittest.TestCase):
         saida = Calculadora.dividir(x=0,y=0)
         esperado = 'undefined'
 
-        self.assertEqual(saida,esperado) 
+        self.assertEqual(saida,esperado)
+
+    def test_dividir_1_0(self):
+        saida = Calculadora.dividir(x=1,y=0)
+        esperado = 'undefined'
+
+        self.assertEqual(saida,esperado)
+
+    def test_dividir_1_1(self):
+        saida = Calculadora.dividir(x=1,y=1)
+        esperado = 1
+
+        self.assertEqual(saida,esperado)
 
 
  
