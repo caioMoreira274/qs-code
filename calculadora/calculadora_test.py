@@ -29,7 +29,7 @@ class TestCalculadora(unittest.TestCase):
 
     def test_subtrair_0_1(self):
         saida = Calculadora.subtrair(x=0,y=1)
-        esperado = 1
+        esperado = -1
 
         self.assertEqual(saida,esperado)
 
