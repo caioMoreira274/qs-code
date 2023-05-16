@@ -39,6 +39,16 @@ class TestCalculadora(unittest.TestCase):
 
         self.assertEqual(saida,esperado)
         
+    def test_multiplicar_0_0(self):
+        saida = Calculadora.multiplicar(x=0,y=0)
+        esperado = 0
+
+        self.assertEqual(saida,esperado)  
+
+
+
+
+ 
     
 
 
