@@ -7,4 +7,6 @@ class Calculadora:
     def subtrair(x,y):
         return x - y
 
+    def multiplicar(x,y):
+        return 0
 
